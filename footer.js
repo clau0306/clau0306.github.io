@@ -1,1 +1,1 @@
-<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+document.getElementById('y').textContent=new Date().getFullYear()
