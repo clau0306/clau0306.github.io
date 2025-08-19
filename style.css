@@ -39,14 +39,15 @@
            
           radial-gradient(1000px 1000px at 0% 100%, color-mix(in srgb, var(--accent), transparent 40%), transparent 80%),
              
-          radial-gradient(1000px 1000px at 100% 100%, color-mix(in srgb, var(--brand), transparent 50%), transparent 85%),
+          radial-gradient(1000px 1000px at 100% 100%, color-mix(in srgb, var(--brand), transparent 40%), transparent 80%),
              
           radial-gradient(1000px 1000px at 100% 0%, color-mix(in srgb, var(--brand), transparent 40%), transparent 80%),
                
-          radial-gradient(1000px 1000px at 0% 0%, color-mix(in srgb, var(--accent), transparent 50%), transparent 55%),
+          radial-gradient(1000px 1000px at 0% 0%, color-mix(in srgb, var(--accent), transparent 40%), transparent 80%),
           var(--bg);
         line-height:1.6;
       }
+      
     a{color:inherit;text-decoration:none}
     img{max-width:100%;display:block}
     .wrap{width:min(100%, var(--maxw));margin-inline:auto;padding-inline:1rem}
