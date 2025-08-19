@@ -8,6 +8,7 @@
     --brand: #4f57ff;
     --brand-600: #4048ff;
     --accent: #46e0b9;
+    --purp: #456fe1;
     --radius: 18px;
     --shadow: 0 10px 30px rgba(0, 0, 0, .35);
     --maxw: 1000px;
@@ -22,7 +23,7 @@
         --border: #e5e9ff;
         --brand: #8dcde2;
         --brand-600: #add8e6;
-
+        --purp: #adbce6;
         --accent: #12b886;
         --shadow: 0 10px 30px rgba(16, 24, 40, .08);
     }
@@ -38,22 +39,32 @@ body {
     height: 110%
 }
 
-body {
-    margin: 0;
+body{
+    margin:0;
     font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
-    color: var(--ink);
+    color:var(--ink);
     background:
-
-        radial-gradient(1000px 1000px at 0% 100%, color-mix(in srgb, var(--accent), transparent 40%), transparent 80%),
-        var(--bg);
-        radial-gradient(1000px 1000px at 100% 100%, color-mix(in srgb, var(--brand), transparent 40%), transparent 80%),
-        var(--bg);
-        radial-gradient(1000px 1000px at 100% 0%, color-mix(in srgb, var(--brand), transparent 40%), transparent 80%),
-        var(--bg);
-        radial-gradient(1000px 1000px at 0% 0%, color-mix(in srgb, var(--accent), transparent 40%), transparent 80%),
-        var(--bg);
-    line-height: 1.6;
-}
+       
+      radial-gradient(500px 500px at 0% 100%, color-mix(in srgb, var(--accent), transparent 40%), transparent 80%),
+         
+      radial-gradient(500px 500px at 100% 100%, color-mix(in srgb, var(--brand), transparent 20%), transparent 80%),
+         
+      radial-gradient(500px 500px at 100% 0%, color-mix(in srgb, var(--brand), transparent 20%), transparent 80%),
+      
+      radial-gradient(500px 500px at 0% 50%, color-mix(in srgb, var(--brand), transparent 20%), transparent 80%),
+      
+      radial-gradient(500px 500px at 100% 50%, color-mix(in srgb, var(--accent), transparent 40%), transparent 80%),
+      
+      radial-gradient(500px 500px at 50% 100%, color-mix(in srgb, var(--purp), transparent 20%), transparent 80%),
+      
+      radial-gradient(500px 500px at 50% 0%, color-mix(in srgb, var(--purp), transparent 20%), transparent 80%),
+           
+           radial-gradient(500px 500px at 50% 50%, color-mix(in srgb, var(--purp), transparent 20%), transparent 80%),
+           
+      radial-gradient(500px 500px at 0% 0%, color-mix(in srgb, var(--accent), transparent 40%), transparent 80%),
+      var(--bg);
+    line-height:1.6;
+  }
 
 a {
     color: inherit;
