@@ -121,3 +121,25 @@
     /* ===== Footer ===== */
     footer{padding:2rem 0;border-top:1px solid var(--border);color:var(--muted)}
 
+    /* === Random image sizing (fits into your current CSS) === */
+#randomImage {
+    display: block;
+    margin: 2rem auto;                 /* center on the page */
+    width: auto;
+    height: auto;
+    max-width: clamp(180px, 28vw, 360px);
+    max-height: clamp(180px, 28vw, 360px);
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.20);
+  }
+  
+  /* If the image lives inside the hero grid's right column */
+  .hero-grid .hero-photo { justify-self: center; }
+  .hero-grid .hero-photo img {
+    width: auto;
+    height: auto;
+    max-width: clamp(200px, 40vw, 380px);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+  }
+  
