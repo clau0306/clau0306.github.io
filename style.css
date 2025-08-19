@@ -56,10 +56,10 @@ radial-gradient(500px 500px at 100% 50%, color-mix(in srgb, var(--purp), transpa
 radial-gradient(500px 500px at 100% 0%, color-mix(in srgb, var(--brand), transparent 40%), transparent 80%),
 radial-gradient(500px 500px at 100% 100%, color-mix(in srgb, var(--brand), transparent 40%), transparent 80%),
 radial-gradient(500px 500px at 50% 50%, color-mix(in srgb, var(--navy), transparent 40%), transparent 80%),
-radial-gradient(250px 250px at 30% 30%, color-mix(in srgb, var(--purp), transparent 40%), transparent 80%),
-radial-gradient(250px 250px at 30% 67%, color-mix(in srgb, var(--navy), transparent 40%), transparent 80%),
-radial-gradient(250px 250px at 60% 33%, color-mix(in srgb, var(--accent), transparent 60%), transparent 80%),
-radial-gradient(250px 250px at 60% 67%, color-mix(in srgb, var(--brand), transparent 40%), transparent 80%),
+radial-gradient(400px 400px at 30% 30%, color-mix(in srgb, var(--purp), transparent 40%), transparent 80%),
+radial-gradient(400px 400px at 30% 67%, color-mix(in srgb, var(--navy), transparent 40%), transparent 80%),
+radial-gradient(400px 400px at 60% 33%, color-mix(in srgb, var(--accent), transparent 60%), transparent 80%),
+radial-gradient(400px 400px at 60% 67%, color-mix(in srgb, var(--brand), transparent 40%), transparent 80%),
 
 
       var(--bg);
